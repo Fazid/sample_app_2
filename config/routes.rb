@@ -1,4 +1,10 @@
 GsmTerminal::Application.routes.draw do
+  get "gsm_terminal/home"
+
+  get "gsm_terminal/help"
+
+  get "gsm_terminal/about"
+
   get "home/index"
 
   # The priority is based upon order of creation:

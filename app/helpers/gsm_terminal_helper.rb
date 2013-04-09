@@ -1,0 +1,2 @@
+module GsmTerminalHelper
+end

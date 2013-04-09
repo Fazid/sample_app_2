@@ -4,6 +4,8 @@
     <list default="true" id="2276cd29-9dde-49a2-a260-d335c0379103" name="Default" comment="" />
     <ignored path="gsm_terminal.iws" />
     <ignored path=".idea/workspace.xml" />
+    <file path="$USER_HOME$/ruby_projects/ruby_gsm_terminal/terminal" changelist="2276cd29-9dde-49a2-a260-d335c0379103" time="1365175448252" ignored="false" />
+    <file path="/terminal" changelist="2276cd29-9dde-49a2-a260-d335c0379103" time="1365175388507" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +25,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="115" selection-start="110" selection-end="110" vertical-scroll-proportion="-3.75">
+            <state line="6" column="0" selection-start="110" selection-end="110" vertical-scroll-proportion="-3.75">
               <folding />
             </state>
           </provider>
@@ -86,7 +88,7 @@
       <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="45" selection-start="429" selection-end="429" vertical-scroll-proportion="0.47619048">
+            <state line="13" column="10" selection-start="424" selection-end="424" vertical-scroll-proportion="0.44217688">
               <folding />
             </state>
           </provider>
@@ -108,8 +110,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="560" />
-    <option name="y" value="60" />
+    <option name="x" value="475" />
+    <option name="y" value="59" />
     <option name="width" value="799" />
     <option name="height" value="680" />
   </component>
@@ -148,16 +150,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gsm_terminal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gsm_terminal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="RailsProjectView" />
@@ -166,6 +158,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$USER_HOME$/ruby_projects/ruby_gsm_terminal" />
   </component>
   <component name="RunManager" selected="Rails.Development: gsm_terminal">
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
@@ -344,14 +337,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="560" y="60" width="799" height="680" extended-state="0" />
+    <frame x="475" y="59" width="799" height="680" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25167337" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25167337" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -494,7 +487,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="115" selection-start="110" selection-end="110" vertical-scroll-proportion="-3.75">
+        <state line="6" column="0" selection-start="110" selection-end="110" vertical-scroll-proportion="-3.75">
           <folding />
         </state>
       </provider>
@@ -529,7 +522,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="45" selection-start="429" selection-end="429" vertical-scroll-proportion="0.47619048">
+        <state line="13" column="10" selection-start="424" selection-end="424" vertical-scroll-proportion="0.44217688">
           <folding />
         </state>
       </provider>
