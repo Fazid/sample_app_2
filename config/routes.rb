@@ -1,11 +1,10 @@
 GsmTerminal::Application.routes.draw do
-  get "gsm_terminal/home"
+  get "users/new"
 
-  get "gsm_terminal/help"
-
-  get "gsm_terminal/about"
-
-  get "home/index"
+  match '/help',    to: 'gsm_terminal#help'
+  match '/about',   to: 'gsm_terminal#about'
+  match '/contact', to: 'gsm_terminal#contact'
+  match '/signup', to: 'users#new'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
@@ -56,7 +55,7 @@ GsmTerminal::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  root :to => 'home#index'
+  root to: 'gsm_terminal#home'
 
   # See how all your routes lay out with "rake routes"
 

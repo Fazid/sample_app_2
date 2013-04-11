@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
+gem 'bootstrap-sass'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -23,8 +24,17 @@ group :assets do
 end
 
 group :test, :development do
-  gem "rspec-rails", "~> 2.0"
+  gem 'rspec-rails', '~> 2.0'
+  gem 'guard-rspec', '~>1.2.1'
+  gem 'guard-spork', '1.4.2'
+  gem 'spork', '~>0.9.2'
+  gem 'childprocess', '0.3.9'
+end
+
+group :test do
   gem 'capybara', '~>1.1.2'
+  gem 'rb-inotify', '~>0.9'
+  gem 'libnotify', '~>0.5.9'
 end
 
 gem 'jquery-rails'
