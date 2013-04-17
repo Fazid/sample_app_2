@@ -1,14 +1,16 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
 gem 'rails', '3.2.13'
 gem 'bootstrap-sass'
+gem 'bcrypt-ruby'#, :git => 'git://github.com/codahale/bcrypt-ruby.git'
+
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'mysql2'
 gem 'execjs'
-gem "serialport", "~> 1.1.0"
+gem 'serialport', '~> 1.1.0'
 
 
 # Gems used only for assets and not required
@@ -29,6 +31,7 @@ group :test, :development do
   gem 'guard-spork', '1.4.2'
   gem 'spork', '~>0.9.2'
   gem 'childprocess', '0.3.9'
+  gem 'annotate'
 end
 
 group :test do

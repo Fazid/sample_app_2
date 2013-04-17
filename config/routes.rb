@@ -4,7 +4,7 @@ GsmTerminal::Application.routes.draw do
   match '/help',    to: 'gsm_terminal#help'
   match '/about',   to: 'gsm_terminal#about'
   match '/contact', to: 'gsm_terminal#contact'
-  match '/signup', to: 'users#new'
+  match '/signup',  to: 'users#new'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
