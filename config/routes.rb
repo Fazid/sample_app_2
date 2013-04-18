@@ -1,6 +1,11 @@
 GsmTerminal::Application.routes.draw do
-  get "users/new"
+  resources :users
 
+  root to: 'gsm_terminal#home'
+
+
+ # get "users/new"
+  match '/home',    to: 'gsm_terminal#home'
   match '/help',    to: 'gsm_terminal#help'
   match '/about',   to: 'gsm_terminal#about'
   match '/contact', to: 'gsm_terminal#contact'
@@ -55,7 +60,7 @@ GsmTerminal::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  root to: 'gsm_terminal#home'
+  #  root to: 'gsm_terminal#home'
 
   # See how all your routes lay out with "rake routes"
 

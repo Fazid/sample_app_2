@@ -12,7 +12,6 @@ gem 'mysql2'
 gem 'execjs'
 gem 'serialport', '~> 1.1.0'
 
-
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -32,6 +31,7 @@ group :test, :development do
   gem 'spork', '~>0.9.2'
   gem 'childprocess', '0.3.9'
   gem 'annotate'
+ # gem 'factory_girl_rails'
 end
 
 group :test do
