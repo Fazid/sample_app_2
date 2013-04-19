@@ -13,7 +13,7 @@ describe "User pages" do
 
   describe "profile page" do
     # Code to make a user variable
- #   let(:user) { FactoryGirl.create(:user) }
+    let(:user) { FactoryGirl.create(:user) }
     before { visit user_path(user) }
 
     it { should have_selector('h1',    text: user.name) }
@@ -42,6 +42,15 @@ describe "User pages" do
 
       it "should create a user" do
         expect { click_button submit }.to change(User, :count).by(1)
+      end
+
+      describe "after saving the user" do
+        before { click_button submit }
+        let(:user) { User.find_by_email('user@example.com') }
+
+        it { should have_selector('title', text: user.name) }
+        it { should have_selector('div.alert.alert-success', text: 'Welcome') }
+        it { should have_link('Sign out') }
       end
     end
   end

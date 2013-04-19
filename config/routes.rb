@@ -1,5 +1,6 @@
 GsmTerminal::Application.routes.draw do
   resources :users
+  resources :sessions, only: [:new, :create, :destroy]
 
   root to: 'gsm_terminal#home'
 
@@ -10,6 +11,8 @@ GsmTerminal::Application.routes.draw do
   match '/about',   to: 'gsm_terminal#about'
   match '/contact', to: 'gsm_terminal#contact'
   match '/signup',  to: 'users#new'
+  match '/signin',  to: 'sessions#new'
+  match '/signout', to: 'sessions#destroy', via: :delete
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

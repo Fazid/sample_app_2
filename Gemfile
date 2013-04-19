@@ -31,13 +31,15 @@ group :test, :development do
   gem 'spork', '~>0.9.2'
   gem 'childprocess', '0.3.9'
   gem 'annotate'
- # gem 'factory_girl_rails'
+  gem 'factory_girl_rails'
 end
 
 group :test do
   gem 'capybara', '~>1.1.2'
   gem 'rb-inotify', '~>0.9'
   gem 'libnotify', '~>0.5.9'
+  gem 'cucumber-rails', :require => false
+  gem 'database_cleaner'
 end
 
 gem 'jquery-rails'
