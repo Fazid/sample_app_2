@@ -6,7 +6,7 @@ GsmTerminal::Application.routes.draw do
 
 
  # get "users/new"
-  match '/home',    to: 'gsm_terminal#home'
+ # match '/home',    to: 'gsm_terminal#home'
   match '/help',    to: 'gsm_terminal#help'
   match '/about',   to: 'gsm_terminal#about'
   match '/contact', to: 'gsm_terminal#contact'

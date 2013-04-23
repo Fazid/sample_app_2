@@ -3,6 +3,10 @@ source 'http://rubygems.org'
 gem 'rails', '3.2.13'
 gem 'bootstrap-sass'
 gem 'bcrypt-ruby'#, :git => 'git://github.com/codahale/bcrypt-ruby.git'
+gem 'faker'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
+gem 'rake'
 
 
 # Bundle edge Rails instead:
