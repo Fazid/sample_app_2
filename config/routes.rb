@@ -1,6 +1,7 @@
 GsmTerminal::Application.routes.draw do
   resources :users
   resources :sessions, only: [:new, :create, :destroy]
+  resources :microposts, only: [:create, :destroy]
 
   root to: 'gsm_terminal#home'
 
@@ -11,6 +12,7 @@ GsmTerminal::Application.routes.draw do
   match '/about',   to: 'gsm_terminal#about'
   match '/contact', to: 'gsm_terminal#contact'
   match '/signup',  to: 'users#new'
+ # match '/destroy', to: 'users#destroy'
   match '/signin',  to: 'sessions#new'
   match '/signout', to: 'sessions#destroy', via: :delete
 
