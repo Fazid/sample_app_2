@@ -47,6 +47,10 @@ Spork.each_run do
 
 end
 
+#RSpec.configure do |config|
+#  config.include Devise::TestHelpers, :type => :controller
+#end
+
 # --- Instructions ---
 # Sort the contents of this file into a Spork.prefork and a Spork.each_run
 # block.
