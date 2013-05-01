@@ -1,15 +1,7 @@
+<%= button_to "Connect", connect_path, :remote=>true, class: "btn btn-large btn-primary"  %>
+<%= button_to "Send", sendd_path, :remote=>true, class: "btn btn-large btn-primary"  %>
 <% if signed_in? %>
-
-  <%= render 'gsm_terminal/home_signed_in_true' %>
-   <section>
-        <%= render 'shared/user_info' %>
-      </section>
-      <section>
-        <%= render 'shared/stats' %>
-      </section>
-      <section>
-        <%= render 'shared/micropost_form' %>
-      </section>
+  <%= render 'gsm_terminal/home_signed_in_true' %>   
 <% else %>
   <%= render 'gsm_terminal/home_signed_in_false' %>
 <% end %>

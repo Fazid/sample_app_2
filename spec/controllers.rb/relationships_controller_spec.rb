@@ -3,11 +3,11 @@ require 'spec_helper'
 describe RelationshipsController do
 
   let(:user) { FactoryGirl.create(:user) }
- let(:other_user) { FactoryGirl.create(:user) }
+  let(:other_user) { FactoryGirl.create(:user) }
 
   before { sign_in user }
 
-=begin  describe "creating a relationship with Ajax" do
+  describe "creating a relationship with Ajax" do
 
     it "should increment the Relationship count" do
       expect do
@@ -37,5 +37,5 @@ describe RelationshipsController do
       response.should be_success
     end
   end
-=end
+
 end

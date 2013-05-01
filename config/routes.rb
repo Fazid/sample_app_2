@@ -4,15 +4,23 @@ GsmTerminal::Application.routes.draw do
       get :following, :followers
     end
   end
+
+ # resources :gsm_terminal do
+ #   collection do
+ #     get :sendmsg
+ #   end
+ # end
+
   resources :sessions, only: [:new, :create, :destroy]
   resources :microposts, only: [:create, :destroy]
   resources :relationships, only: [:create, :destroy]
 
   root to: 'gsm_terminal#home'
 
-
+  match '/connect',    to: 'gsm_terminal#connect'
+  match '/sendd',    to: 'gsm_terminal#sendd'
  # get "users/new"
- # match '/home',    to: 'gsm_terminal#home'
+  match '/home',    to: 'gsm_terminal#home'
   match '/help',    to: 'gsm_terminal#help'
   match '/about',   to: 'gsm_terminal#about'
   match '/contact', to: 'gsm_terminal#contact'
